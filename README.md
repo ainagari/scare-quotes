@@ -1,5 +1,5 @@
 
-# 👻 Scare Quotes as Markers of "Questionable" Word Usages 😉
+# 🙃 Scare Quotes as Markers of "Questionable" Word Usages 👻
 
 This repository will contain the annotations, guidelines and code related to the upcoming paper:
 
