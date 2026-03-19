@@ -1,0 +1,27 @@
+* Task: Classify the use of quotation marks into scare-quotes (S) or non-scare quotes (N).
+
+* Definitions:
+- N (Non-Scare Quotes): The expression in quotes is to be taken at face value, with no added attitude. For example, quotes enclose a meta-linguistic usage ("'Cat' has three letters"), they are used to cite someone else ("He said 'I’m hungry'"), or mark specialized terminology, titles ("Have you watched 'Gone with the wind?'") or abstract categories. They can also be used for emphasis.
+- S (Scare Quotes): The expression in quotes is not to be taken at face value. For example, the expression is a suboptimal lexical choice (e.g., because it doesn’t fully apply to the situation being described, or because the writer is unsure that this is the correct word to use), it is used in a figurative sense, or with irony (e.g., "the 'generous' lady donated one cent to charity"). Alternatively, the writer seems to want to distance themselves from the usage, perhaps because the word is connotatively loaded or controversial, or because it comes from a different register (e.g., "This lady works as an 'influencer' on Instagram"). It can also be a word that is unusual, incorrect or made-up. Finally, the writer may express, implicitly or explicitly, some attitude towards someone else's words, even if there is some meta-linguistic comment about them.
+
+* Rules:
+1. Classify only the text inside <target>...</target>.
+2. Answer with exactly ONE of: S / N. 
+
+* Examples:
+
+Utterance: I do not know the meaning of <target>'diplomacy'</target>.
+Answer: N
+
+Utterance: This so-called <target>'diet'</target> allows him to eat ice-cream.
+Answer: S
+
+Utterance: He said <target>'hello'</target> and went to grab some coffee.
+Answer: N
+
+Utterance: He said he was the <target>'humblest person ever'</target>, can you believe that?
+Answer: S
+
+* Your turn:
+Utterance: [UTTERANCE HERE]
+Your answer (S or N):

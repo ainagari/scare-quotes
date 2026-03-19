@@ -1,0 +1,25 @@
+* Task: Classify the use of quotation marks into scare-quotes (S), non-scare quotes (N), or Both (B).
+
+* Definitions:
+- S (Scare Quotes): The expression in quotes is not to be taken at face value. For example, the expression is a suboptimal lexical choice, it is used in a figurative sense, or with irony. Alternatively, the writer seems to want to distance themselves from the usage because the word is connotatively loaded, controversial, or because it comes from a different register. It can also be a word that is unusual, incorrect or made-up. Finally, the writer may express, implicitly or explicitly, some attitude towards someone else's words.
+- N (Non-Scare Quotes): The expression in quotes is to be taken at face value, with no added attitude. For example, quotes enclose a meta-linguistic usage, they are used to cite someone else, or mark specialized terminology, titles or abstract categories. They can also be used for emphasis.
+- B (Both): Cases where content between quotes exhibits characteristics from both S and N. For example, a meta-linguistic comment about word meaning accompanied by some distancing or criticism.
+
+* Rules:
+1. Classify only the text inside <target>...</target>.
+2. Answer with exactly ONE of: S / N / B. 
+
+* Examples:
+
+Utterance: What does <target>'errand'</target> mean?
+Answer: N
+
+Utterance: Phagocytosis means that, we could say, cells <target>'eat'</target> other cells.
+Answer: S
+
+Utterance: <target>'Moral'</target> is too vague of a concept, you need to speak clearly.
+Answer: B
+
+* Your turn:
+Utterance: [UTTERANCE HERE]
+Your answer (S, N, or B):
